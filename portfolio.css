@@ -32,8 +32,20 @@ span {
     display: none;
 }
 
-.posters img {
+.poster {
     margin: 0% 0.2%;
     border-radius: 0.4%;
+}
+
+.text {
+    padding: 0.8% 0% 0% 0.8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.content {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
 }
 
