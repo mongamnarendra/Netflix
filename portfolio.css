@@ -131,6 +131,7 @@
     height: 60px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
 }
 
 .nav-logo {
