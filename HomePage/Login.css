@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 600px;
+    background-image: url("background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #222;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.668);
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 150px;
+    height: 100%;
+    margin: 10px 120px; 
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.options {
+    margin: 40px 190px;
+}
+
+.options button{  
+    border: none;
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    background-color: #E50914;
+    color: white;
+    margin: 10px;
+}
+
+select {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+
+/* .......................................nav bar end................................ */
+
+.center-content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.matter {
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.matter h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.matter h3{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 100;
+    margin: 30px;
+}
+
+.label  {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.matter button {
+    background-color: #E50914;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+.email {
+    width: 400px;
+    height: 50px;
+    border: 1px solid;
+    background-color: #00000094;
+    padding-left: 30px;
+    font-size: 1.1rem;
+
+}
+
+
+/* ...............................Homepage Section 1 End........................... */
+
