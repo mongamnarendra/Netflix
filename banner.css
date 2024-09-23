@@ -21,13 +21,12 @@ body {
 }
 
 .banner-title {
-    padding: 220px 0px 0px 80px;
+    padding: 15% 0px 0px 80px;
     max-width: 35%;
 }
 
 .banner-title img {
     margin-bottom: 50px;
-    object-fit: contain;
     max-width: 100%;
 }
 
@@ -39,6 +38,7 @@ body {
 
 .ua {
     border: 1px solid rgb(103, 103, 103);
+    padding: 1%;
 }
 
 .banner-title h2 {
