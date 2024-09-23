@@ -167,8 +167,9 @@ select {
 .channel {
     width: 400px;
     height: 300px;
-    background-color: white;
+    background-image: linear-gradient(145deg,rgb(55, 55, 90),rgb(136, 92, 136));
     border-radius: 8px;
+
 }
 
 .title {
