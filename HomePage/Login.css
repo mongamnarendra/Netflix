@@ -77,13 +77,13 @@ select {
 }
 
 .matter {
+    margin: 80px 0px 0px;
     width: 600px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;   
 }
 
 .matter h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 
@@ -164,14 +164,28 @@ select {
     display: none;
 }
 
-.channel {
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient(145deg,rgb(55, 55, 90),rgb(136, 92, 136));
-    border-radius: 8px;
-
-}
-
 .title {
     margin: 50px 0px 0px 135px;
 }
+
+.channel {
+    width: 400px;
+    height: 250px;
+    background-image: linear-gradient(145deg,rgb(27, 27, 55),rgb(27, 27, 55),rgb(84, 36, 84));
+    border-radius: 8px;
+}
+
+.channel h2 {
+    padding: 20px 0px 0px 20px;
+}
+
+.channel p {
+    padding: 20px 0px 0px 20px;
+}
+
+.frequent h2 {
+    margin: 10px ;
+} 
+
+
+
