@@ -131,8 +131,7 @@ select {
 
 
 .movies {
-    width: 100%;
-    max-width: 1200px;
+    width: 82%;
     margin: 0 120px;
     display: flex;
     gap: 20px; 
@@ -184,8 +183,58 @@ select {
 }
 
 .frequent h2 {
-    margin: 10px ;
+    margin: 10px 0px 0px 135px;
 } 
+
+.question-box {
+    width: 81%;
+    height: 10%;
+    background-color: #333;
+    margin: 10px 0px 0px 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.question-box h2 {
+    margin-left: 20px;
+    padding: 1.2rem;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom p {
+    text-align: center;
+    margin: 80px 0px 20px 0px;
+}
+
+.bottom h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.bottom input {
+    width: 500px;
+    height: 50px;
+    background-color: #111;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.bottom button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: #E50914;
+}
+
+.footerHead {
+    margin: 30px 0px 30px 135px;
+}
 
 
 
