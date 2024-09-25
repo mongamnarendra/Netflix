@@ -251,10 +251,12 @@ option {
 footer .child ul{
     list-style: none;
     padding: 10px 50px;
+    font-size: 15px;
 }
 
 footer .child li {
     margin: 20px;
+    font-weight: 100;
     
 }
 
