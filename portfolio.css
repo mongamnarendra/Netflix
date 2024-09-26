@@ -7,13 +7,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.Hero {
+.hero {
     width: 36%;
     height: 50%;
-    margin: 53px 0px 10px 45px;
+    padding: 120px 0px 50px 2.5%;
 }
 
-.Hero h1 {
+.hero h1 {
     font-size: 3rem;
     font-weight: 900;
     line-height: 1.5;
@@ -23,7 +23,7 @@
 
 .Hero p {
     color: #fff;
-    font-size: 18px;
+    font-size: 19px;
     margin-top: 10px;
     line-height: 1.5;
 }
@@ -31,7 +31,7 @@
 .posters{
     display: flex;
     overflow: auto;
-    margin: 1% 0.5%;
+    margin: 1% 1% 1% 2.5%;
 }
 
 .posters::-webkit-scrollbar {
@@ -44,7 +44,7 @@
 }
 
 .text {
-    padding: 0.8% 0% 0% 0.8%;
+    padding: 0.8% 0% 0% 2.5%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
 }
@@ -53,7 +53,12 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
+    font-weight: 100;
     padding: 1% 0%;    
+}
+
+.container {
+    margin: 5px;
 }
 
 .bannerInfo {
@@ -131,60 +136,62 @@
 
 .navbar {
     width: 100%;
-    height: 60px;
+    height: 55px;
+    background-color: #111;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-    background-color: #111;
+    position: fixed;
 }
 
-
-.nav-logo {
-    width: 110px;
-    height: 90%;
-    margin-left: 40px;
-}
-
-.nav-logo img {
-    width: 100%;
-    height: 100%;
-    background-color: #111;
-}
-
-.nav-content {
-    width: 600px;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 20px;
-    background-color: #111;
-}
-
-.nav-content h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
-    background-color: #111;
-}
-
-.join {
+.logo {
     width: 100px;
-    height: 40px;
-    margin-top: -8px;
-    background-color: #E50914;
+    height: 100%;
+    background-image: url(Netflix-Logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 35px;
+    background-color: #111;
+}
+
+.nav-buttons {
+    background-color: #111;
+    margin-right: 50px;
+}
+
+.nav-buttons h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;  
+}
+
+.nav-buttons .button1 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 0 8px;
+    width: 140px;
+    height: 35px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
     border: none;
     border-radius: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9rem;
 }
 
-.sign {
+.nav-buttons .button2 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px 0 8px;
     width: 100px;
-    height: 40px;
-    margin-top: -8px;
-    border: 1px solid;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
     border-radius: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9rem;
-    
+    cursor: pointer;
+}
+.nav-buttons {
+    display: flex;
+    align-items: center;
 }
