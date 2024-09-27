@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #111;
+    background-color: #171717;
     color: white;
 }
 
@@ -111,3 +111,153 @@ body {
     line-height: 1.2;
 }
 
+
+
+/* --------------------videos------------------- */
+.heading {
+    margin: 5% 0px 0px 80px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.heading span {
+    color: #a3a3a3;
+}
+
+.video-container {
+    height: 400px;
+    margin: 2.5% 0px 0px 80px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.video-container::-webkit-scrollbar {
+    display: none;
+}
+
+.teaser img {
+    height: 320px;
+    width: 520px;
+}
+
+.teaser p {
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+/* ---------------------release------------------------ */
+
+.title {
+    margin: 5px 0px 30px 80px;
+}
+
+.release {
+    margin: 5px 0px 30px 80px;
+    width: 45%;
+    line-height: 1.2;
+}
+
+.release-info {
+    color: #a3a3a3;
+}
+
+
+/* ----------------episodes------------------------ */
+.episodes-container {
+    width: 96%;
+    height: 90vh;
+    margin: 0px 0px 0px 5.5%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.episode {
+    margin-bottom: 0px;
+}
+
+.episodes-card {
+    width: 330px;
+    height: 48%;
+}
+
+.episodes-card img {
+    width: 100%;
+    height: 60%;
+}
+
+.title-info {
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.episodes-card h2 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.title-info span {
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    line-height: 27px;
+
+}
+
+.episodes-card p {
+    max-width: 99%;
+    margin-top: 10px;
+    color: #a3a3a3;
+    font-size: 12px;
+}
+
+/* ------------------------more details---------------- */
+.more-details {
+    width: 96%;
+    height: 300px;
+    margin: 30px 0px 0px 5.5%;
+    display: flex;
+    gap: 20px;
+}
+
+.details-heading {
+    padding: 2.5% 0px 10px 80px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.more-details .details-card {
+    width: 330px;
+    margin-right: 50px;
+}
+
+.more-details .details-card h4 {
+    color: #a3a3a3;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.more-details .details-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.more-details .details-card p a  { 
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.more-details .details-card p a:hover {
+    text-decoration: underline;
+}
