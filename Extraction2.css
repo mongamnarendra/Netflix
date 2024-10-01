@@ -1,0 +1,10 @@
+
+.banner {
+    background: linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, .88) 20%, hsla(0, 0%, 9%, .77) 25%, hsla(0, 0%, 9%, .65) 35%, hsla(0, 0%, 9%, .54) 40%, hsla(0, 0%, 9%, .42) 45%, hsla(0, 0%, 9%, .39) 50%, hsla(0, 0%, 9%, .37) 55%, hsla(0, 0%, 9%, .32) 60%, hsla(0, 0%, 9%, .25) 65%, hsla(0, 0%, 9%, .13) 70%, hsla(0, 0%, 9%, .12) 75%, hsla(0, 0%, 9%, .11) 80%, hsla(0, 0%, 9%, .10) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)),url("https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYvcH5XZXrAmpWYoTMa3AtaY7YddNIj_roEK7WK2gVOxl4RJaebRRuAmXtgJYL0C5Xukq3yBXyLuNLtwI-jF6IwzEKV-_79uqLtQ.jpg?r=0a9");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+}
