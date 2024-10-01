@@ -19,7 +19,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
 }
 
 .logo {
@@ -163,12 +162,12 @@ body {
     height: 50px;
     background-color: white;
     border-radius: 50%;
-    padding: 10px 0px 0px 10px;
+    padding: 15px 0px 0px 15px;
 }
 
 .play-Button img {
-    width: 90%;
-    height: 80%;
+    width: 20px;
+    height: 20px;
 }
 
 /* ---------------------release------------------------ */
